@@ -1,0 +1,23 @@
+use std::os::raw::*;
+
+pub type Int8 = i8;
+pub type Int16 = i16;
+pub type UInt8 = u8;
+pub type UInt16 = u16;
+pub type Int32 = i32;
+pub type UInt32 = u32;
+pub type Int64 = i64;
+pub type UInt64 = u64;
+pub type uchar = c_uchar;
+pub type ushort = c_ushort;
+pub type uint = c_uint;
+pub type LongPtr = i64;
+pub type ULongPtr = u64;
+pub type IntPtr = i64;
+pub type UIntPtr = u64;
+pub type int_db_id = LongPtr;
+pub type GsMarker = IntPtr;
+pub type Boolean = bool;
+pub type Time64 = i64;
+pub const kFalse: bool = false;
+pub const kTrue: bool = true;

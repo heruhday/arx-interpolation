@@ -1,0 +1,16 @@
+GET http://localhost:5581/ HTTP/1.1
+
+###
+
+POST http://localhost:5581/user HTTP/1.1
+content-type: application/json
+
+{
+    "name": "heru",
+    "email": "heru.hday@gmail.com"
+}
+
+###
+GET http://localhost:5581/user/heru HTTP/1.1
+
+###
